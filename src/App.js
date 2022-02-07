@@ -2,7 +2,8 @@ import React from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 import Header from './components/Header'
-import ItemCard from './components/ItemCard';
+import Home from './components/Home';
+
 
 
 function App() {
@@ -11,7 +12,7 @@ function App() {
       <BrowserRouter>
         <Header />
         <Routes>
-          <Route exact path='/' element={<ItemCard />} />
+          <Route exact path='/' element={<Home />} />
         </Routes>
       </BrowserRouter>
     </>

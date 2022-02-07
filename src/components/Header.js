@@ -25,7 +25,7 @@ function Header() {
                         <Dropdown.Toggle variant="success" >
                             <FaShoppingCart color='white' fontSize="25px" />
                             Orders
-                            <Badge>{data.products.length}</Badge>
+
                         </Dropdown.Toggle>
                         <Dropdown.Menu style={{ minWidth: 100 }}>
                             {data.products && data.products.map((item, index) => (
