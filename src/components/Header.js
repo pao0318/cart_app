@@ -20,7 +20,6 @@ function Header() {
                     <Navbar.Brand>
                         <Link to="/">Shopping Cart</Link>
                     </Navbar.Brand>
-
                     <Dropdown >
                         <Dropdown.Toggle variant="success" >
                             <FaShoppingCart color='white' fontSize="25px" />

@@ -1,6 +1,4 @@
 import React, { useState, useEffect, createContext } from "react";
-
-
 function Button({ item }) {
     const [totalVal, setTotalVal] = useState(0)
 
